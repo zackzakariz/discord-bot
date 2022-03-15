@@ -11,8 +11,8 @@ module.exports = {
 
 
         const Welcomer = new WebhookClient({
-            id: "950365049577418802",
-            token: "M9Feb-Dobi3LqC5HFJ9M6Bek3QzB_6rHup-MESQpfu7tJa6d70UQuFS_Uz75T6aoivhn"
+            id: "",
+            token: ""
         });
 
         const Welcome = new MessageEmbed()
