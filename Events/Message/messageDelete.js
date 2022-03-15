@@ -16,6 +16,5 @@ module.exports = {
             Log.addField(`Attachments:`, `${message.attachments.map(a => a.url)}`, true)
         }
 
-        new WebhookClient({url: "https://discord.com/api/webhooks/951363750026428457/w_lH_P2csNiVP0aGLtrWQ5lkIZgqizmeiESxKYLw5Pk09DVHdimwwSUAPpBplAiUJ2Po"}).send({embeds: [Log]}).catch((err) => {  console.log(err)});
-    }
+        new WebhookClient({url: "
 }
